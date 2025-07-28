@@ -22,7 +22,16 @@ Based on this data, it gives a buy/sell recommendation along with a short explan
 
 ## How to Use It
 
-1. **Install the required libraries** (only needs to be done once):
+1. **Install the required libraries**:
 
    ```bash
-   pip install -r requirements.txt
+   pip install yfinance, pandas, numpy, ta, tkinter
+
+2. **Run the script:**:
+
+   ```bash
+   python stock_analyzer.py
+
+3. **A small window will open. Just type in a stock ticker like AAPL, TSLA, or MSFT and click Analyze.**:
+
+
